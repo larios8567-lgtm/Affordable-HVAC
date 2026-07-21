@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Fresno's Heating &amp; Cooling - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Montserrat:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-container": "#612900",
+                    "primary-fixed": "#d2e4ff",
+                    "surface-container-low": "#eff4ff",
+                    "surface-dim": "#cbdbf5",
+                    "background": "#f8f9ff",
+                    "on-primary": "#ffffff",
+                    "surface-container-highest": "#d3e4fe",
+                    "outline-variant": "#c3c6cf",
+                    "surface-container-high": "#dce9ff",
+                    "on-primary-fixed": "#001c37",
+                    "primary": "#002444",
+                    "inverse-surface": "#213145",
+                    "surface-variant": "#d3e4fe",
+                    "on-primary-container": "#87a4cc",
+                    "on-secondary-fixed-variant": "#763300",
+                    "on-error": "#ffffff",
+                    "surface-bright": "#f8f9ff",
+                    "surface-container": "#e5eeff",
+                    "on-background": "#0b1c30",
+                    "secondary-container": "#fe8028",
+                    "on-secondary-fixed": "#321200",
+                    "secondary-fixed-dim": "#ffb68d",
+                    "inverse-primary": "#abc9f2",
+                    "tertiary-container": "#4f3300",
+                    "primary-container": "#1a3a5c",
+                    "on-surface-variant": "#43474e",
+                    "surface": "#f8f9ff",
+                    "secondary-fixed": "#ffdbc9",
+                    "inverse-on-surface": "#eaf1ff",
+                    "tertiary-fixed-dim": "#ecbf80",
+                    "error-container": "#ffdad6",
+                    "on-error-container": "#93000a",
+                    "on-primary-fixed-variant": "#2a486b",
+                    "on-tertiary-fixed": "#291800",
+                    "surface-container-lowest": "#ffffff",
+                    "on-surface": "#0b1c30",
+                    "secondary": "#9a4600",
+                    "on-tertiary": "#ffffff",
+                    "on-tertiary-container": "#c49b5f",
+                    "tertiary-fixed": "#ffddb1",
+                    "on-secondary": "#ffffff",
+                    "primary-fixed-dim": "#abc9f2",
+                    "outline": "#73777f",
+                    "tertiary": "#331f00",
+                    "error": "#ba1a1a",
+                    "surface-tint": "#436084",
+                    "on-tertiary-fixed-variant": "#5f410c"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "margin-mobile": "16px",
+                    "section-padding": "80px",
+                    "base": "8px"
+            },
+            "fontFamily": {
+                    "label-bold": ["Inter"],
+                    "display-lg": ["Montserrat"],
+                    "body-md": ["Inter"],
+                    "display-lg-mobile": ["Montserrat"],
+                    "headline-sm": ["Montserrat"],
+                    "headline-md": ["Montserrat"],
+                    "body-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "label-bold": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "display-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased font-body-md pt-[72px] md:pt-[88px] pb-16 md:pb-0">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 shadow-sm border-b border-outline-variant bg-surface flex flex-col w-full hidden md:flex">
+<!-- Emergency Banner -->
+<div class="bg-error text-on-error py-2 text-center font-label-bold text-label-bold">
+<span class="material-symbols-outlined align-middle mr-1 text-sm" style="font-variation-settings: 'FILL' 1;">emergency</span>
+            24/7 Emergency Service Available — Call Now: (559) 555-0123
+        </div>
+<div class="max-w-container-max mx-auto w-full px-gutter h-16 flex items-center justify-between">
+<!-- Brand -->
+<a class="font-headline-sm text-headline-sm font-bold text-primary flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">hvac</span>
+                Fresno's Heating &amp; Cooling
+            </a>
+<!-- Navigation -->
+<nav class="flex items-center gap-6">
+<!-- None are active on Home technically from the JSON list, so all inactive -->
+<a class="text-on-surface-variant font-label-bold hover:text-primary hover:bg-surface-container-high transition-colors px-2 py-1 rounded nav-link" href="services.html">Services</a>
+<a class="text-on-surface-variant font-label-bold hover:text-primary hover:bg-surface-container-high transition-colors px-2 py-1 rounded nav-link" href="maintenance.html">Maintenance</a>
+<a class="text-on-surface-variant font-label-bold hover:text-primary hover:bg-surface-container-high transition-colors px-2 py-1 rounded nav-link" href="booking.html">Emergency</a>
+<a class="text-on-surface-variant font-label-bold hover:text-primary hover:bg-surface-container-high transition-colors px-2 py-1 rounded nav-link" href="about.html">About</a>
+<a class="text-on-surface-variant font-label-bold hover:text-primary hover:bg-surface-container-high transition-colors px-2 py-1 rounded nav-link" href="booking.html">Contact</a>
+</nav>
+<!-- Actions -->
+<div class="flex items-center gap-4">
+<a class="font-label-bold text-label-bold text-primary flex items-center gap-2 hover:text-secondary-container transition-colors" href="tel:5595550123">
+<span class="material-symbols-outlined text-secondary-container" data-icon="call">call</span>
+                    (559) 555-0123
+                </a>
+<button class="bg-secondary-container text-on-primary font-label-bold text-label-bold px-6 py-2.5 rounded hover:bg-secondary transition-colors shadow-sm" onclick="location.href='booking.html'">
+                    Book Now
+                </button>
+</div>
+</div>
+</header>
+<!-- Mobile Header -->
+<header class="fixed top-0 w-full z-50 shadow-sm border-b border-outline-variant bg-surface flex md:hidden items-center justify-between h-[72px] px-margin-mobile">
+<a class="font-headline-sm text-headline-sm font-bold text-primary flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">hvac</span>
+            Fresno HVAC
+        </a>
+<a class="text-secondary-container p-2 rounded-full bg-surface-container-high" href="tel:5595550123">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">call</span>
+</a>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative bg-surface-container-low overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="bg-cover bg-center w-full h-full opacity-20" data-alt="A modern suburban home exterior in the Central Valley, California, during a bright, sunny afternoon. The house features clean landscaping and a high-efficiency HVAC unit visible on the side. The lighting is warm and welcoming, conveying comfort, safety, and suburban tranquility. The visual style is crisp, professional real estate photography with high contrast and vivid colors." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA9-rrnW1UqMcs5EqK6cVx66PnpaJNmw_rIrFJ6_tWdfmHtS2RpVXsKNEaO5SkRLnszJPivpRUlj6DD5ZvMojaqhxkO0llqFHL0Ccz_8dkvAmVCqB-qHxf1_BTlsHW13D5rdOK2JtJLuYZ3LhcB247Loxfl8etTU6dA_5b_EW40y2od5Gu-s3tLgrx81f5tsSgpLucZ0dz8IyGd4r22ZOGqVCVjYp-EUPWmjrmI4kRLPJnlsAFIdg9Jdg')"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-low via-surface-container-low/90 to-transparent"></div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter py-12 md:py-section-padding relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<div class="inline-flex items-center gap-2 bg-secondary-container/10 text-secondary-container px-3 py-1 rounded-full font-label-bold text-label-bold">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                        5-Star Rated in Fresno &amp; Clovis
+                    </div>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-background">
+                        Fresno's Trusted <span class="text-primary">HVAC Experts</span> — Same-Day Service, Honest Pricing
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                        Family-owned, licensed &amp; insured experts serving the Central Valley. We restore your comfort fast with transparent pricing and guaranteed satisfaction.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<button class="bg-secondary-container text-on-primary font-label-bold text-label-bold px-8 py-4 rounded shadow-md hover:bg-secondary hover:shadow-lg transition-all active:scale-95 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">calendar_month</span>
+                            Schedule Online
+                        </button>
+<a class="bg-primary text-on-primary font-label-bold text-label-bold px-8 py-4 rounded shadow-md hover:bg-primary-container transition-all active:scale-95 flex items-center justify-center gap-2 border border-primary-container" href="tel:5595550123">
+<span class="material-symbols-outlined">call</span>
+                            Call Now: (559) 555-0123
+                        </a>
+</div>
+</div>
+<div class="hidden lg:block relative h-full min-h-[400px]">
+<img class="object-cover w-full h-full rounded-xl shadow-lg border border-outline-variant/30" data-alt="A professional HVAC technician in a clean, branded navy blue uniform, smiling confidently while inspecting an outdoor air conditioning unit. The technician is wearing safety glasses and holding a digital diagnostic tool. The setting is a sunny residential backyard in California. The lighting is bright and natural, emphasizing trust, expertise, and cleanliness. Corporate modern style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4Lp50xW2J1c2M2b0jjaVlf0JpKYbcgwERhm95AvqF0tYk_3vxsIdgffYGFyFrdoA0UpMaIRYRb64es4bYZFeXfSXMMbD46JJyd_ZwaoS7gincwN3OZzRUhcaAFRFNwwa5JuOlqXx6jMJsylY1kz_O0_cy_onxOyBMDsx0SSmoLjMDkX-vxIxpGto7hKR-L5_FGnwwuCHTG1HsgK3mMfJgf7s1DNnXQHuaKAQqHVoTO1VnApExvCqstA"/>
+<!-- Floating Trust Badge -->
+<div class="absolute -bottom-6 -left-6 bg-surface p-4 rounded-xl shadow-lg border border-outline-variant flex items-center gap-4">
+<div class="bg-primary-container text-on-primary p-3 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div>
+<p class="font-label-bold text-label-bold text-on-surface">Licensed &amp; Insured</p>
+<p class="font-body-md text-sm text-on-surface-variant">#HVAC123456</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- What We Offer -->
+<section class="py-section-padding bg-surface">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="text-center mb-12">
+<h2 class="font-headline-md text-headline-md text-on-background mb-4">Complete Heating &amp; Cooling Services</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Expert repairs, installations, and maintenance for all makes and models.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow group">
+<div class="w-12 h-12 bg-primary-container/10 text-primary rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">ac_unit</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-background mb-2">AC Repair</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4 line-clamp-2">Fast, reliable air conditioning repair to beat the Central Valley heat. Available 24/7 for emergencies.</p>
+<div class="flex items-center justify-between mt-auto">
+<span class="text-secondary-container font-label-bold text-label-bold">Starting at $89</span>
+<a class="text-primary font-label-bold text-label-bold flex items-center hover:underline" href="#">Details <span class="material-symbols-outlined text-sm ml-1">arrow_forward</span></a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow group">
+<div class="w-12 h-12 bg-primary-container/10 text-primary rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">mode_fan</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-background mb-2">AC Replacement</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4 line-clamp-2">Upgrade to a high-efficiency system. Free estimates on new installations.</p>
+<div class="flex items-center justify-between mt-auto">
+<span class="text-secondary-container font-label-bold text-label-bold">Free Estimates</span>
+<a class="text-primary font-label-bold text-label-bold flex items-center hover:underline" href="#">Details <span class="material-symbols-outlined text-sm ml-1">arrow_forward</span></a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow group">
+<div class="w-12 h-12 bg-secondary-container/10 text-secondary-container rounded-lg flex items-center justify-center mb-4 group-hover:bg-secondary-container group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-background mb-2">Heater Repair</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4 line-clamp-2">Don't stay cold. We service furnaces and heating systems of all brands.</p>
+<div class="flex items-center justify-between mt-auto">
+<span class="text-secondary-container font-label-bold text-label-bold">Starting at $89</span>
+<a class="text-primary font-label-bold text-label-bold flex items-center hover:underline" href="#">Details <span class="material-symbols-outlined text-sm ml-1">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar (Mobile) -->
+<nav class="fixed bottom-0 w-full z-50 md:hidden bg-surface-container-highest shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] border-t border-outline-variant flex justify-around items-center h-16 px-4">
+<!-- Labels array: ["Call Now", "Book Online", "Services"] -->
+<!-- Active logic: Home is technically none of these directly, but usually primary intent is CTA on mobile -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant active:bg-surface-container-high scale-95 duration-75 p-2 rounded-xl" href="tel:5595550123">
+<span class="material-symbols-outlined mb-1" data-icon="call">call</span>
+<span class="font-label-bold text-[12px] leading-tight font-semibold">Call Now</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-xl px-4 py-1 scale-95 duration-75" href="booking.html">
+<span class="material-symbols-outlined mb-1" data-icon="calendar_month" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
+<span class="font-label-bold text-[12px] leading-tight font-semibold">Book Online</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant active:bg-surface-container-high scale-95 duration-75 p-2 rounded-xl" href="services.html">
+<span class="material-symbols-outlined mb-1" data-icon="construction">construction</span>
+<span class="font-label-bold text-[12px] leading-tight font-semibold">Services</span>
+</a>
+</nav>
+<!-- Footer -->
+<footer class="bg-primary py-section-padding w-full">
+<div class="max-w-container-max mx-auto px-gutter grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-2">
+<a class="font-headline-md text-headline-md font-bold text-on-primary flex items-center gap-2 mb-4" href="#">
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">hvac</span>
+                    Fresno's Heating &amp; Cooling
+                </a>
+<p class="font-body-md text-body-md text-primary-fixed-dim mb-6 max-w-sm">
+                    Providing top-tier HVAC services to the Central Valley with honesty, integrity, and same-day reliability.
+                </p>
+<div class="flex gap-4">
+<!-- Social placeholders -->
+<div class="w-10 h-10 bg-primary-container rounded-full flex items-center justify-center text-on-primary hover:bg-secondary-container transition-colors cursor-pointer">
+<span class="material-symbols-outlined">share</span>
+</div>
+</div>
+</div>
+<div>
+<h4 class="font-label-bold text-label-bold text-on-primary mb-4 uppercase tracking-wider text-sm opacity-80">Quick Links</h4>
+<ul class="space-y-3">
+<li><a class="text-primary-fixed-dim hover:text-white font-body-md text-body-md transition-all duration-300 hover:underline decoration-secondary" href="services.html">Residential Services</a></li>
+<li><a class="text-primary-fixed-dim hover:text-white font-body-md text-body-md transition-all duration-300 hover:underline decoration-secondary" href="commercial.html">Commercial HVAC</a></li>
+<li><a class="text-primary-fixed-dim hover:text-white font-body-md text-body-md transition-all duration-300 hover:underline decoration-secondary" href="maintenance.html">Maintenance Plans</a></li>
+<li><a class="text-primary-fixed-dim hover:text-white font-body-md text-body-md transition-all duration-300 hover:underline decoration-secondary" href="service-areas.html">Service Areas</a></li>
+<li><a class="text-primary-fixed-dim hover:text-white font-body-md text-body-md transition-all duration-300 hover:underline decoration-secondary" href="privacy.html">Privacy Policy</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-bold text-label-bold text-on-primary mb-4 uppercase tracking-wider text-sm opacity-80">Contact Us</h4>
+<ul class="space-y-3">
+<li class="flex items-start gap-2 text-primary-fixed-dim font-body-md text-body-md">
+<span class="material-symbols-outlined text-secondary-container text-xl">location_on</span>
+<span>123 Climate Way<br/>Fresno, CA 93720</span>
+</li>
+<li class="flex items-center gap-2 text-primary-fixed-dim font-body-md text-body-md">
+<span class="material-symbols-outlined text-secondary-container text-xl">call</span>
+<a class="hover:text-white transition-colors" href="tel:5595550123">(559) 555-0123</a>
+</li>
+<li class="flex items-center gap-2 text-primary-fixed-dim font-body-md text-body-md">
+<span class="material-symbols-outlined text-secondary-container text-xl">mail</span>
+<a class="hover:text-white transition-colors" href="mailto:service@fresnohvac.com">service@fresnohvac.com</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-gutter mt-12 pt-8 border-t border-primary-container">
+<p class="text-center font-body-md text-sm text-primary-fixed-dim">
+                © 2024 Fresno's Heating &amp; Cooling. License #HVAC123456. All Rights Reserved.
+            </p>
+</div>
+</footer>
+</body></html>
