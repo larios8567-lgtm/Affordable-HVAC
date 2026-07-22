@@ -3,351 +3,266 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Fresno Heating and Cooling Inc | HVAC Services</title>
-<meta name="description" content="Fresno Heating and Cooling Inc — 4.9 stars, 545+ Google Reviews. Same-day AC repair, installation & HVAC service. (559) 720-0479"/>
+<title>Fresno Heating and Cooling Inc | AC Repair & HVAC Services Fresno CA</title>
+<meta name="description" content="Fresno Heating and Cooling Inc — 4.9 stars, 545+ Google Reviews. Same-day AC repair, heater service, installation. Serving Fresno, Clovis, Central Valley. (559) 720-0479"/>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<script>tailwind.config={theme:{extend:{colors:{brand:{50:'#f0f4f8',100:'#d9e2ec',200:'#bccde0',500:'#334e68',600:'#243b53',700:'#334e68',800:'#486581',900:'#102a43'\},warm:{500:'#e85d04',600:'#dc2f02',700:'#ba2100'\},cool:{50:'#f0f9ff',100:'#e0f2fe',200:'#bae6fd'}}}}}}</script>
+<script>tailwind.config={theme:{extend:{colors:{navy:'#0c1929','navy-light':'#152238',orange:'#e85d04','orange-dark':'#c2410c',gray:'#334155'},fontFamily:{sans:['Inter','sans-serif']}}}}</script>
 <style>
-body{font-family:'Inter',sans-serif}
-h1,h2,h3,h4{font-family:'Inter',sans-serif;font-weight:700;letter-spacing:-0.02em}
+body{font-family:'Inter',sans-serif;color:#1e293b}
+h1,h2,h3{font-family:'Inter',sans-serif;font-weight:800;letter-spacing:-0.02em}
 .material-symbols-outlined{font-variation-settings:'FILL'0,'wght'400,'GRAD'0,'opsz'24;vertical-align:middle}
 .icon-filled{font-variation-settings:'FILL'1,'wght'400,'GRAD'0,'opsz'24}
 @media(prefers-reduced-motion:reduce){*{animation-duration:0.01ms!important}}
 </style>
 </head>
-<body class="bg-white text-gray-900 antialiased">
+<body class="bg-white">
 
-<!-- ===== TOP BAR ===== -->
-<div class="bg-brand-800 text-white text-sm">
-  <div class="max-w-7xl mx-auto px-4 py-1.5 flex flex-col sm:flex-row justify-between items-center gap-1">
-    <span class="flex items-center gap-1.5 text-xs sm:text-sm"><span class="material-symbols-outlined text-red-400 text-sm icon-filled">emergency</span><strong>24/7 Emergency Service Available</strong> — Additional fee applies</span>
-    <span class="flex items-center gap-3 text-xs sm:text-sm">
-      <a href="tel:+15597200479" class="hover:text-warm-500 transition-colors flex items-center gap-1"><span class="material-symbols-outlined text-sm">call</span>English: (559) 720-0479</a>
-      <span class="text-white/30 hidden sm:inline">|</span>
-      <a href="tel:+15597614527" class="hover:text-warm-500 transition-colors flex items-center gap-1"><span class="material-symbols-outlined text-sm">language</span>Español: (559) 761-4527</a>
-    </span>
-  </div>
+<!-- TOP BAR -->
+<div class="bg-navy text-white text-sm py-2">
+<div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-1">
+<span class="text-xs sm:text-sm"><span class="text-red-400 font-bold">24/7 Emergency</span> — additional fee applies</span>
+<span class="flex gap-3 text-xs sm:text-sm">
+<a href="tel:+15597200479" class="hover:text-orange">EN: (559) 720-0479</a>
+<a href="tel:+15597614527" class="hover:text-orange">ES: (559) 761-4527</a>
+</span>
+</div>
 </div>
 
-<!-- ===== NAVBAR ===== -->
-<header class="sticky top-0 z-50 bg-brand-900 shadow-lg">
-  <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-    <a href="#" class="flex items-center gap-3">
-      <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center shadow-md">
-        <span class="material-symbols-outlined text-white text-xl icon-filled">ac_unit</span>
-      </div>
-      <div class="leading-tight">
-        <span class="font-extrabold text-white text-base sm:text-lg block">Fresno Heating</span>
-        <span class="font-extrabold text-white text-base sm:text-lg block -mt-1">& Cooling Inc</span>
-      </div>
-    </a>
-    <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold">
-      <a href="#services" class="text-blue-100 hover:text-white transition-colors">Services</a>
-      <a href="#vip" class="text-blue-100 hover:text-white transition-colors">VIP Plans</a>
-      <a href="#booking" class="text-blue-100 hover:text-white transition-colors">Book Online</a>
-      <a href="#reviews" class="text-blue-100 hover:text-white transition-colors">Reviews</a>
-      <a href="#contact" class="text-blue-100 hover:text-white transition-colors">Contact</a>
-    </nav>
-    <div class="flex items-center gap-3">
-      <a href="tel:+15597200479" class="hidden md:flex items-center gap-1.5 text-white font-bold text-sm hover:text-warm-400 transition-colors"><span class="material-symbols-outlined">call</span>(559) 720-0479</a>
-      <a href="#booking" class="bg-warm-500 hover:bg-warm-600 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all shadow-lg shadow-warm-500/25 active:scale-95 flex items-center gap-1.5">
-        <span class="material-symbols-outlined text-base">calendar_month</span>Book Now
-      </a>
-    </div>
-  </div>
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-navy shadow-xl">
+<div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+<a href="#" class="flex items-center gap-2.5 text-white font-extrabold text-lg">
+<span class="material-symbols-outlined text-orange text-2xl icon-filled">ac_unit</span>Fresno Heating & Cooling Inc
+</a>
+<nav class="hidden lg:flex gap-6 text-sm font-semibold">
+<a href="#services" class="text-gray-300 hover:text-white">Services</a>
+<a href="#vip" class="text-gray-300 hover:text-white">VIP Plans</a>
+<a href="#booking" class="text-gray-300 hover:text-white">Book Online</a>
+<a href="#reviews" class="text-gray-300 hover:text-white">Reviews</a>
+<a href="#contact" class="text-gray-300 hover:text-white">Contact</a>
+</nav>
+<div class="flex items-center gap-3">
+<a href="tel:+15597200479" class="hidden sm:flex items-center gap-1 text-white font-bold hover:text-orange text-sm"><span class="material-symbols-outlined">call</span>(559) 720-0479</a>
+<a href="#booking" class="bg-orange hover:bg-orange-dark text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all shadow-lg shadow-orange/30 active:scale-95">Book Now</a>
+</div>
+</div>
 </header>
 
-<!-- ===== HERO ===== -->
-<section class="relative bg-gradient-to-br from-brand-800 via-brand-900 to-brand-800 overflow-hidden">
-  <div class="absolute inset-0 opacity-[0.15]">
-    <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,#60a5fa_0%,transparent_60%),radial-gradient(circle_at_70%_60%,#f97316_0%,transparent_60%)]"></div>
-  </div>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 relative z-10">
-    <div class="grid lg:grid-cols-5 gap-12 items-center">
-      <div class="lg:col-span-3 text-white space-y-6">
-        <div class="flex flex-wrap items-center gap-4 text-sm">
-          <div class="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
-            <span class="flex text-yellow-400"><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span></span>
-            <span class="font-semibold">4.9 Stars — 545 Google Reviews</span>
-          </div>
-          <span class="flex items-center gap-1.5 text-white"><span class="material-symbols-outlined text-green-400 icon-filled text-sm">verified</span>BBB A-Rated</span>
-        </div>
-        <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-[1.1] tracking-tight">
-          Fresno's Most Trusted <span class="text-warm-500">Heating & Cooling</span> Experts
-        </h1>
-        <p class="text-lg md:text-xl text-white max-w-xl leading-relaxed">
-          Family owned and operated since 1995. Same-day service, upfront pricing, and 100% satisfaction guaranteed — serving Fresno, Clovis, and the entire Central Valley.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 pt-3">
-          <a href="#booking" class="bg-warm-500 hover:bg-warm-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-xl shadow-warm-500/30 active:scale-95 flex items-center justify-center gap-2">
-            <span class="material-symbols-outlined">calendar_month</span>Schedule Online
-          </a>
-          <a href="tel:+15597200479" class="border-2 border-white/30 hover:border-white hover:bg-white/10 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all active:scale-95 flex items-center justify-center gap-2">
-            <span class="material-symbols-outlined">call</span>(559) 720-0479
-          </a>
-        </div>
-        <div class="flex flex-wrap gap-4 pt-4 text-sm text-blue-100">
-          <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-blue-400 icon-filled text-base">verified_user</span>Licensed & Insured</span>
-          <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-blue-400 icon-filled text-base">groups</span>Family Owned</span>
-          <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-blue-400 icon-filled text-base">schedule</span>Mon-Sat 7AM-7PM</span>
-        </div>
-      </div>
-      <div class="lg:col-span-2 hidden lg:block relative">
-        <div class="relative">
-          <div class="absolute -inset-1 bg-gradient-to-r from-blue-400 to-warm-500 rounded-2xl blur-lg opacity-30"></div>
-          <div class="relative bg-brand-800 border border-white/10 rounded-2xl overflow-hidden shadow-2xl">
-            <img src="images/hero-van.jpg" alt="Fresno Heating and Cooling Inc professional service van — same-day HVAC repair and installation in Fresno, CA" class="w-full h-full object-cover rounded-2xl" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
-            <div class="hidden aspect-[4/3] bg-gradient-to-br from-blue-900/60 to-brand-800 flex items-center justify-center rounded-2xl">
-              <div class="text-center"><span class="material-symbols-outlined text-7xl text-white/20 mb-4 block">hvac</span><p class="text-white/40 text-sm font-semibold">Professional HVAC Services</p><p class="text-white/20 text-xs mt-1">Fresno, CA</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- HERO -->
+<section class="relative bg-navy py-20 md:py-32 overflow-hidden">
+<div class="absolute inset-0 opacity-25"><div class="absolute inset-0 bg-[url('images/hero-van.jpg')] bg-cover bg-center"></div></div>
+<div class="absolute inset-0 bg-navy/80"></div>
+<div class="max-w-7xl mx-auto px-4 relative z-10">
+<div class="max-w-2xl text-white space-y-6">
+<div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold">
+<span class="flex text-yellow-400"><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span></span>
+4.9 Stars · 545 Google Reviews
+</div>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">Fresno's Most Trusted <span class="text-orange">Heating & Cooling</span> Experts</h1>
+<p class="text-lg md:text-xl text-gray-300 leading-relaxed">Same-day service, honest pricing, 4.9-star quality. Family owned & operated since 1995. Licensed, insured, BBB A-Rated. Serving Fresno, Clovis, and the Central Valley.</p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<a href="#booking" class="bg-orange hover:bg-orange-dark text-white font-bold px-8 py-4 rounded-xl text-lg transition-all shadow-xl shadow-orange/40 active:scale-95 flex items-center justify-center gap-2"><span class="material-symbols-outlined">calendar_month</span>Schedule Online</a>
+<a href="tel:+15597200479" class="border-2 border-white/30 hover:border-white text-white font-bold px-8 py-4 rounded-xl text-lg transition-all active:scale-95 flex items-center justify-center gap-2"><span class="material-symbols-outlined">call</span>(559) 720-0479</a>
+</div>
+</div>
+</div>
 </section>
 
-<!-- ===== TRUST BAR ===== -->
-<section class="py-10 bg-brand-800">
-  <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-    <div><span class="text-3xl font-extrabold text-white">545+</span><p class="text-sm text-blue-100 mt-1 font-medium">Google Reviews</p></div>
-    <div><span class="text-3xl font-extrabold text-white">4.9 <span class="text-yellow-500 text-lg">★</span></span><p class="text-sm text-blue-100 mt-1 font-medium">Average Rating</p></div>
-    <div><span class="text-3xl font-extrabold text-white">30+</span><p class="text-sm text-blue-100 mt-1 font-medium">Years Serving Fresno</p></div>
-    <div><span class="text-3xl font-extrabold text-white">24/7</span><p class="text-sm text-blue-100 mt-1 font-medium">Emergency Service</p></div>
-  </div>
+<!-- TRUST BAR -->
+<section class="bg-navy-light py-10">
+<div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
+<div><span class="text-3xl font-black text-orange">545+</span><p class="text-sm text-gray-400 mt-1">Google Reviews</p></div>
+<div><span class="text-3xl font-black text-orange">4.9 ★</span><p class="text-sm text-gray-400 mt-1">Average Rating</p></div>
+<div><span class="text-3xl font-black text-orange">30+</span><p class="text-sm text-gray-400 mt-1">Years Serving Fresno</p></div>
+<div><span class="text-3xl font-black text-orange">24/7</span><p class="text-sm text-gray-400 mt-1">Emergency Service</p></div>
+</div>
 </section>
 
-<!-- ===== SERVICES ===== -->
-<section id="services" class="py-20 bg-slate-300">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14">
-      <span class="text-warm-500 font-bold text-sm uppercase tracking-widest">Our Services</span>
-      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mt-3">Complete Heating & Cooling Solutions</h2>
-      <p class="text-gray-700 mt-4 max-w-2xl mx-auto text-lg">Expert repair, installation, and maintenance. Proudly servicing <strong>Bosch, Goodman, and American Standard</strong> systems.</p>
-    </div>
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">ac_unit</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">AC Repair</h3><p class="text-xs text-gray-600">Fast, reliable diagnosis</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">home</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">AC Installation</h3><p class="text-xs text-gray-600">New system installs</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">settings</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">AC Service</h3><p class="text-xs text-gray-600">Tune-ups & maintenance</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-orange-50 text-orange-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-orange-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">local_fire_department</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Heater Repair</h3><p class="text-xs text-gray-600">Furnace & heating fix</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-orange-50 text-orange-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-orange-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">fireplace</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Heater Installation</h3><p class="text-xs text-gray-600">New furnace installs</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-orange-50 text-orange-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-orange-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">build</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Heater Service</h3><p class="text-xs text-gray-600">Heating maintenance</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-green-50 text-green-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-green-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">heat_pump</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Heat Pumps</h3><p class="text-xs text-gray-600">Energy-efficient dual</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-purple-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">mode_fan</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Mini-Splits</h3><p class="text-xs text-gray-600">Ductless solutions</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-gray-100 text-gray-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-gray-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">air</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Duct Work</h3><p class="text-xs text-gray-600">Cleaning & repair</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-yellow-50 text-yellow-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-yellow-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">roofing</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Insulation</h3><p class="text-xs text-gray-600">Home efficiency</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-teal-50 text-teal-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-teal-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">device_thermostat</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Thermostats</h3><p class="text-xs text-gray-600">Smart upgrades</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-cyan-50 text-cyan-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-cyan-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">water_drop</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Water Heaters</h3><p class="text-xs text-gray-600">Install & repair</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-slate-300 text-slate-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-slate-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">business</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Commercial HVAC</h3><p class="text-xs text-gray-600">Business solutions</p></div>
-      <div class="bg-white rounded-xl p-5 shadow-lg border border-slate-300 hover:shadow-xl hover:border-blue-400 transition-all group cursor-pointer"><div class="w-11 h-11 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-emerald-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">recycling</span></div><h3 class="font-bold text-gray-900 text-sm mb-1">Refrigerant</h3><p class="text-xs text-gray-600">Recycling service</p></div>
-    </div>
-    <div class="text-center mt-12">
-      <div class="inline-flex items-center gap-6 bg-white rounded-full px-8 py-4 shadow-sm border border-gray-100">
-        <span class="text-gray-700 text-sm font-medium">Trusted Brands:</span>
-        <span class="font-extrabold text-gray-900 text-lg tracking-tight">BOSCH</span>
-        <span class="text-gray-300">|</span>
-        <span class="font-extrabold text-gray-900 text-lg tracking-tight">Goodman</span>
-        <span class="text-gray-300">|</span>
-        <span class="font-extrabold text-gray-900 text-lg tracking-tight">American Standard</span>
-      </div>
-    </div>
-  </div>
+<!-- PHOTO STRIP -->
+<section class="relative h-56 md:h-72 bg-navy">
+<img src="images/team-work.jpg" alt="Fresno Heating and Cooling professional HVAC team" class="absolute inset-0 w-full h-full object-cover opacity-50" onerror="this.style.display='none'"/>
+<div class="absolute inset-0 bg-navy/60 flex items-center">
+<div class="max-w-7xl mx-auto px-4 w-full"><h2 class="text-3xl md:text-4xl font-extrabold text-white">Your Comfort Is Our Mission</h2><p class="text-gray-300 text-lg mt-2">Real technicians. Real results. Since 1995.</p></div>
+</div>
 </section>
 
-<!-- ===== CTA BANNER ===== -->
-<section class="py-16 bg-gradient-to-r from-brand-700 to-brand-800">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-3">Ready to Restore Your Comfort?</h2>
-    <p class="text-gray-200 text-lg mb-8 max-w-2xl mx-auto">Same-day appointments available. Call now or book online in 60 seconds.</p>
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a href="#booking" class="bg-warm-500 hover:bg-warm-600 text-white font-bold px-10 py-4 rounded-xl text-lg transition-all shadow-xl shadow-warm-500/30 active:scale-95 flex items-center justify-center gap-2"><span class="material-symbols-outlined">calendar_month</span>Book Online</a>
-      <a href="tel:+15597200479" class="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-bold px-10 py-4 rounded-xl text-lg transition-all border border-white/20 active:scale-95 flex items-center justify-center gap-2"><span class="material-symbols-outlined">call</span>(559) 720-0479</a>
-    </div>
-  </div>
+<!-- SERVICES -->
+<section id="services" class="py-20 bg-slate-200">
+<div class="max-w-7xl mx-auto px-4">
+<div class="text-center mb-14">
+<span class="text-orange font-bold text-sm uppercase tracking-widest">What We Do</span>
+<h2 class="text-3xl md:text-5xl font-extrabold text-navy mt-3">Complete HVAC Services</h2>
+<p class="text-gray-600 mt-4 max-w-2xl mx-auto text-lg">Expert installation, repair & maintenance. Proudly servicing <strong>Bosch, Goodman & American Standard</strong>.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">ac_unit</span></div><h3 class="font-bold text-gray-800 text-sm">AC Repair</h3><p class="text-xs text-gray-600 mt-1">Fast diagnosis & fix</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">home</span></div><h3 class="font-bold text-gray-800 text-sm">AC Installation</h3><p class="text-xs text-gray-600 mt-1">New system installs</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">settings</span></div><h3 class="font-bold text-gray-800 text-sm">AC Service</h3><p class="text-xs text-gray-600 mt-1">Tune-ups & maintenance</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-orange-100 text-orange rounded-xl flex items-center justify-center mb-3 group-hover:bg-orange group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">local_fire_department</span></div><h3 class="font-bold text-gray-800 text-sm">Heater Repair</h3><p class="text-xs text-gray-600 mt-1">Furnace & heating fix</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-orange-100 text-orange rounded-xl flex items-center justify-center mb-3 group-hover:bg-orange group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">fireplace</span></div><h3 class="font-bold text-gray-800 text-sm">Heater Installation</h3><p class="text-xs text-gray-600 mt-1">New furnace installs</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-orange-100 text-orange rounded-xl flex items-center justify-center mb-3 group-hover:bg-orange group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">build</span></div><h3 class="font-bold text-gray-800 text-sm">Heater Service</h3><p class="text-xs text-gray-600 mt-1">Heating maintenance</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-green-100 text-green-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-green-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">heat_pump</span></div><h3 class="font-bold text-gray-800 text-sm">Heat Pumps</h3><p class="text-xs text-gray-600 mt-1">Energy-efficient systems</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-purple-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">mode_fan</span></div><h3 class="font-bold text-gray-800 text-sm">Mini-Splits</h3><p class="text-xs text-gray-600 mt-1">Ductless solutions</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-slate-100 text-slate-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-slate-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">air</span></div><h3 class="font-bold text-gray-800 text-sm">Duct Work</h3><p class="text-xs text-gray-600 mt-1">Cleaning & repair</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-yellow-100 text-yellow-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-yellow-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">roofing</span></div><h3 class="font-bold text-gray-800 text-sm">Insulation</h3><p class="text-xs text-gray-600 mt-1">Home efficiency</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-teal-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">device_thermostat</span></div><h3 class="font-bold text-gray-800 text-sm">Thermostats</h3><p class="text-xs text-gray-600 mt-1">Smart home upgrades</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-cyan-100 text-cyan-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-cyan-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">water_drop</span></div><h3 class="font-bold text-gray-800 text-sm">Water Heaters</h3><p class="text-xs text-gray-600 mt-1">Install & repair</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-slate-200 text-slate-700 rounded-xl flex items-center justify-center mb-3 group-hover:bg-slate-700 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">business</span></div><h3 class="font-bold text-gray-800 text-sm">Commercial HVAC</h3><p class="text-xs text-gray-600 mt-1">Business solutions</p></div>
+<div class="bg-white rounded-xl p-5 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-400 transition-all group"><div class="w-11 h-11 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center mb-3 group-hover:bg-emerald-600 group-hover:text-white transition-colors"><span class="material-symbols-outlined text-xl icon-filled">recycling</span></div><h3 class="font-bold text-gray-800 text-sm">Refrigerant</h3><p class="text-xs text-gray-600 mt-1">Recycling service</p></div>
+</div>
+</div>
 </section>
 
-<!-- ===== VIP MEMBERSHIP ===== -->
+<!-- CTA BANNER -->
+<section class="relative py-16 bg-navy overflow-hidden">
+<img src="images/van-fleet.jpg" alt="Fresno Heating and Cooling service fleet" class="absolute inset-0 w-full h-full object-cover opacity-15" onerror="this.style.display='none'"/>
+<div class="relative z-10 max-w-7xl mx-auto px-4 text-center">
+<h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Ready to Get Comfortable?</h2>
+<p class="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">Same-day appointments available. Book online or call now — we'll be there fast.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a href="#booking" class="bg-orange hover:bg-orange-dark text-white font-bold px-10 py-4 rounded-xl text-lg shadow-xl shadow-orange/40 active:scale-95 transition-all flex items-center justify-center gap-2"><span class="material-symbols-outlined">calendar_month</span>Book Online</a>
+<a href="tel:+15597200479" class="border-2 border-white/40 hover:border-white hover:bg-white/10 text-white font-bold px-10 py-4 rounded-xl text-lg active:scale-95 transition-all flex items-center justify-center gap-2"><span class="material-symbols-outlined">call</span>(559) 720-0479</a>
+</div>
+</div>
+</section>
+
+<!-- VIP -->
 <section id="vip" class="py-20 bg-slate-300">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14">
-      <span class="text-warm-500 font-bold text-sm uppercase tracking-widest">VIP Savings</span>
-      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mt-3">Maintenance Plan That Pays For Itself</h2>
-      <p class="text-gray-700 mt-4 max-w-2xl mx-auto text-lg">Two tune-ups alone cover the cost. Everything else is pure savings.</p>
-    </div>
-    <div class="max-w-md mx-auto relative">
-      <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-warm-500 text-white font-bold px-6 py-1.5 rounded-full text-sm shadow-lg z-10">BEST VALUE</div>
-      <div class="bg-gradient-to-br from-brand-800 to-brand-900 rounded-2xl p-8 pt-12 text-white shadow-2xl border border-blue-700/30">
-        <div class="text-center mb-8">
-          <p class="text-5xl font-black">$170<span class="text-xl font-normal text-blue-100">/year</span></p>
-          <p class="text-blue-200/80 text-sm mt-1">Just $14.17/month</p>
-        </div>
-        <ul class="space-y-3.5 mb-8">
-          <li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><span class="text-sm"><strong>Two Tune-Ups Annually</strong> — $170 value alone</span></li>
-          <li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><span class="text-sm"><strong>Lifetime Repair Guarantee</strong></span></li>
-          <li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><span class="text-sm"><strong>15% Off All Parts</strong></span></li>
-          <li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><span class="text-sm"><strong>Priority Scheduling</strong> — first in line</span></li>
-          <li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><span class="text-sm"><strong>1lb Refrigerant Top-Off</strong> — $200 value</span></li>
-        </ul>
-        <a href="#booking" class="block w-full bg-warm-500 hover:bg-warm-600 text-white font-bold py-4 rounded-xl text-center transition-all shadow-lg shadow-warm-500/25 text-lg">Join VIP Today</a>
-        <p class="text-center text-blue-100 text-xs mt-4">VIP cost waived with any new system installation</p>
-      </div>
-    </div>
-  </div>
+<div class="max-w-7xl mx-auto px-4">
+<div class="text-center mb-14">
+<span class="text-orange font-bold text-sm uppercase tracking-widest">VIP Savings</span>
+<h2 class="text-3xl md:text-5xl font-extrabold text-navy mt-3">Maintenance Plan That Pays For Itself</h2>
+<p class="text-gray-700 mt-4 max-w-2xl mx-auto text-lg">Two tune-ups alone cover the cost. Everything else is pure savings. <strong>VIP cost waived with new system install.</strong></p>
+</div>
+<div class="max-w-md mx-auto bg-navy rounded-2xl p-8 text-white shadow-2xl">
+<div class="text-center mb-8"><span class="bg-orange text-white px-4 py-1 rounded-full text-sm font-bold">BEST VALUE</span><p class="text-5xl font-black mt-4">$170<span class="text-xl font-normal text-gray-400">/year</span></p><p class="text-gray-400 text-sm mt-1">Only $14.17/month</p></div>
+<ul class="space-y-3.5 mb-8 text-sm">
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><strong>Two Tune-Ups Annually</strong> — $170 value</li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><strong>Lifetime Repair Guarantee</strong></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><strong>15% Off All Parts</strong></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><strong>Priority Scheduling</strong></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400 mt-0.5 shrink-0 icon-filled">check_circle</span><strong>1lb Refrigerant Top-Off</strong> — $200 value</li>
+</ul>
+<a href="#booking" class="block w-full bg-orange hover:bg-orange-dark text-white font-bold py-4 rounded-xl text-center transition-all shadow-lg shadow-orange/30 text-lg">Join VIP Today</a>
+</div>
+</div>
 </section>
 
-<!-- ===== BOOKING ===== -->
-<section id="booking" class="py-20 bg-slate-200">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14">
-      <span class="text-warm-500 font-bold text-sm uppercase tracking-widest">Get Started</span>
-      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mt-3">Book Your Service</h2>
-      <p class="text-gray-700 mt-4 max-w-2xl mx-auto text-lg">Takes 60 seconds. We'll call within 15 minutes to confirm.</p>
-    </div>
-    <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl border border-gray-100 p-6 md:p-10">
-      <div class="flex items-center justify-between mb-10" id="step-progress">
-        <div class="flex items-center gap-2" id="si1"><span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm">1</span><span class="hidden sm:inline text-sm font-semibold text-gray-900">Service</span></div><span class="h-px flex-1 bg-gray-200 mx-2"></span>
-        <div class="flex items-center gap-2" id="si2"><span class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-200 text-gray-600 font-bold text-sm">2</span><span class="hidden sm:inline text-sm font-semibold text-gray-600">Schedule</span></div><span class="h-px flex-1 bg-gray-200 mx-2"></span>
-        <div class="flex items-center gap-2" id="si3"><span class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-200 text-gray-600 font-bold text-sm">3</span><span class="hidden sm:inline text-sm font-semibold text-gray-600">Contact</span></div><span class="h-px flex-1 bg-gray-200 mx-2"></span>
-        <div class="flex items-center gap-2" id="si4"><span class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-200 text-gray-600 font-bold text-sm">4</span><span class="hidden sm:inline text-sm font-semibold text-gray-600">Done!</span></div>
-      </div>
-      <!-- STEP 1 -->
-      <div id="bs1">
-        <h3 class="text-xl font-extrabold text-gray-900 mb-6">What do you need help with?</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-          <label class="cursor-pointer relative"><input type="radio" name="svc" value="AC Repair" class="peer sr-only" checked><div class="border-2 border-gray-200 rounded-xl p-5 hover:border-blue-300 transition-all peer-checked:border-blue-600 peer-checked:bg-blue-50/50 peer-checked:shadow-md"><span class="material-symbols-outlined text-3xl text-blue-600 mb-2 block">ac_unit</span><span class="font-bold text-gray-900">AC Repair</span><p class="text-sm text-gray-700 mt-1">System not cooling properly</p></div><span class="material-symbols-outlined text-blue-600 absolute top-3 right-3 hidden peer-checked:block icon-filled">check_circle</span></label>
-          <label class="cursor-pointer relative"><input type="radio" name="svc" value="Heater Repair" class="peer sr-only"><div class="border-2 border-gray-200 rounded-xl p-5 hover:border-blue-300 transition-all peer-checked:border-blue-600 peer-checked:bg-blue-50/50 peer-checked:shadow-md"><span class="material-symbols-outlined text-3xl text-orange-600 mb-2 block">local_fire_department</span><span class="font-bold text-gray-900">Heater Repair</span><p class="text-sm text-gray-700 mt-1">Furnace or heating issues</p></div><span class="material-symbols-outlined text-blue-600 absolute top-3 right-3 hidden peer-checked:block icon-filled">check_circle</span></label>
-          <label class="cursor-pointer relative"><input type="radio" name="svc" value="Installation" class="peer sr-only"><div class="border-2 border-gray-200 rounded-xl p-5 hover:border-blue-300 transition-all peer-checked:border-blue-600 peer-checked:bg-blue-50/50 peer-checked:shadow-md"><span class="material-symbols-outlined text-3xl text-blue-600 mb-2 block">home</span><span class="font-bold text-gray-900">New System Install</span><p class="text-sm text-gray-700 mt-1">AC, Heat Pump, or Furnace</p></div><span class="material-symbols-outlined text-blue-600 absolute top-3 right-3 hidden peer-checked:block icon-filled">check_circle</span></label>
-          <label class="cursor-pointer relative"><input type="radio" name="svc" value="Maintenance" class="peer sr-only"><div class="border-2 border-gray-200 rounded-xl p-5 hover:border-blue-300 transition-all peer-checked:border-blue-600 peer-checked:bg-blue-50/50 peer-checked:shadow-md"><span class="material-symbols-outlined text-3xl text-blue-600 mb-2 block">tune</span><span class="font-bold text-gray-900">Maintenance / Tune-Up</span><p class="text-sm text-gray-700 mt-1">Seasonal check-up</p></div><span class="material-symbols-outlined text-blue-600 absolute top-3 right-3 hidden peer-checked:block icon-filled">check_circle</span></label>
-        </div>
-        <button onclick="goToStep(2)" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-all shadow-lg shadow-blue-600/25 active:scale-95 flex items-center justify-center gap-2">Continue<span class="material-symbols-outlined">arrow_forward</span></button>
-      </div>
-      <!-- STEP 2 -->
-      <div id="bs2" class="hidden">
-        <h3 class="text-xl font-extrabold text-gray-900 mb-6">When should we come?</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <div><label class="block font-semibold text-gray-900 text-sm mb-2">Preferred Date</label><input type="date" id="bdate" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
-          <div><label class="block font-semibold text-gray-900 text-sm mb-2">Time Window</label><select id="btime" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all bg-white"><option value="">Select time...</option><option>Morning (8AM-12PM)</option><option>Afternoon (12PM-4PM)</option><option>Evening (4PM-7PM)</option></select></div>
-        </div>
-        <div class="flex gap-4"><button onclick="goToStep(1)" class="flex-1 border-2 border-gray-200 text-gray-600 font-semibold py-3.5 rounded-xl hover:bg-gray-50 transition-all flex items-center justify-center gap-2"><span class="material-symbols-outlined">arrow_back</span>Back</button><button onclick="goToStep(3)" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-all shadow-lg shadow-blue-600/25 active:scale-95 flex items-center justify-center gap-2">Continue<span class="material-symbols-outlined">arrow_forward</span></button></div>
-      </div>
-      <!-- STEP 3 -->
-      <div id="bs3" class="hidden">
-        <h3 class="text-xl font-extrabold text-gray-900 mb-6">Your contact info</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-          <div><label class="block font-semibold text-gray-900 text-sm mb-2">Full Name *</label><input type="text" id="bname" placeholder="John Smith" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
-          <div><label class="block font-semibold text-gray-900 text-sm mb-2">Phone Number *</label><input type="tel" id="bphone" placeholder="(559) 555-0123" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
-          <div><label class="block font-semibold text-gray-900 text-sm mb-2">Email Address *</label><input type="email" id="bemail" placeholder="you@email.com" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
-          <div><label class="block font-semibold text-gray-900 text-sm mb-2">Service Address</label><input type="text" id="baddr" placeholder="123 Main St, Fresno, CA" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
-        </div>
-        <div class="mb-6"><label class="block font-semibold text-gray-900 text-sm mb-2">Describe the issue</label><textarea id="bnotes" rows="3" placeholder="Tell us what's going on..." class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all resize-none"></textarea></div>
-        <div class="flex gap-4"><button onclick="goToStep(2)" class="flex-1 border-2 border-gray-200 text-gray-600 font-semibold py-3.5 rounded-xl hover:bg-gray-50 transition-all flex items-center justify-center gap-2"><span class="material-symbols-outlined">arrow_back</span>Back</button><button onclick="submitBooking()" class="flex-1 bg-warm-500 hover:bg-warm-600 text-white font-bold py-3.5 rounded-xl transition-all shadow-lg shadow-warm-500/25 active:scale-95 flex items-center justify-center gap-2">Submit Booking<span class="material-symbols-outlined">send</span></button></div>
-      </div>
-      <!-- STEP 4 -->
-      <div id="bs4" class="hidden text-center py-8">
-        <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6"><span class="material-symbols-outlined text-5xl text-green-600 icon-filled">check_circle</span></div>
-        <h3 class="text-2xl font-extrabold text-gray-900 mb-4">Booking Confirmed!</h3>
-        <p class="text-gray-600 mb-6 max-w-md mx-auto">We'll call you within <strong>15 minutes</strong> to confirm. For emergencies, call now: <a href="tel:+15597200479" class="text-warm-500 font-bold">(559) 720-0479</a></p>
-        <div class="flex flex-col sm:flex-row gap-3 justify-center">
-          <button onclick="resetBooking()" class="bg-brand-800 hover:bg-brand-900 text-white font-bold px-6 py-3 rounded-xl transition-all active:scale-95">Book Another</button>
-          <a href="#" class="border-2 border-gray-200 text-gray-600 font-semibold px-6 py-3 rounded-xl hover:bg-gray-50 transition-all text-center">Back to Home</a>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- BOOKING -->
+<section id="booking" class="py-20 bg-slate-400">
+<div class="max-w-7xl mx-auto px-4">
+<div class="text-center mb-14">
+<span class="text-orange font-bold text-sm uppercase tracking-widest">Get Started</span>
+<h2 class="text-3xl md:text-5xl font-extrabold text-navy mt-3">Book Your Service</h2>
+<p class="text-gray-700 mt-4 max-w-2xl mx-auto text-lg">Takes 60 seconds. We'll call within 15 minutes to confirm your appointment.</p>
+</div>
+<div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-10">
+<div class="flex items-center justify-between mb-10">
+<div class="flex items-center gap-2" id="si1"><span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm">1</span><span class="hidden sm:inline text-sm font-semibold text-navy">Service</span></div><span class="h-px flex-1 bg-gray-200 mx-2"></span>
+<div class="flex items-center gap-2" id="si2"><span class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-200 text-gray-400 font-bold text-sm">2</span><span class="hidden sm:inline text-sm font-semibold text-gray-500">Schedule</span></div><span class="h-px flex-1 bg-gray-200 mx-2"></span>
+<div class="flex items-center gap-2" id="si3"><span class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-200 text-gray-400 font-bold text-sm">3</span><span class="hidden sm:inline text-sm font-semibold text-gray-500">Contact</span></div><span class="h-px flex-1 bg-gray-200 mx-2"></span>
+<div class="flex items-center gap-2" id="si4"><span class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-200 text-gray-400 font-bold text-sm">4</span><span class="hidden sm:inline text-sm font-semibold text-gray-500">Done</span></div>
+</div>
+<div id="bs1"><h3 class="text-xl font-extrabold text-navy mb-6">What do you need help with?</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+<label class="cursor-pointer relative"><input type="radio" name="svc" value="AC Repair" class="peer sr-only" checked><div class="border-2 border-gray-200 rounded-xl p-5 hover:border-blue-300 transition-all peer-checked:border-blue-600 peer-checked:bg-blue-50 peer-checked:shadow-md"><span class="material-symbols-outlined text-3xl text-blue-600 mb-2 block">ac_unit</span><span class="font-bold text-navy">AC Repair</span><p class="text-sm text-gray-600 mt-1">System not cooling properly</p></div><span class="material-symbols-outlined text-blue-600 absolute top-3 right-3 hidden peer-checked:block icon-filled">check_circle</span></label>
+<label class="cursor-pointer relative"><input type="radio" name="svc" value="Heater Repair" class="peer sr-only"><div class="border-2 border-gray-200 rounded-xl p-5 hover:border-blue-300 transition-all peer-checked:border-blue-600 peer-checked:bg-blue-50 peer-checked:shadow-md"><span class="material-symbols-outlined text-3xl text-orange mb-2 block">local_fire_department</span><span class="font-bold text-navy">Heater Repair</span><p class="text-sm text-gray-600 mt-1">Furnace or heating issues</p></div><span class="material-symbols-outlined text-blue-600 absolute top-3 right-3 hidden peer-checked:block icon-filled">check_circle</span></label>
+<label class="cursor-pointer relative"><input type="radio" name="svc" value="Installation" class="peer sr-only"><div class="border-2 border-gray-200 rounded-xl p-5 hover:border-blue-300 transition-all peer-checked:border-blue-600 peer-checked:bg-blue-50 peer-checked:shadow-md"><span class="material-symbols-outlined text-3xl text-blue-600 mb-2 block">home</span><span class="font-bold text-navy">New System Install</span><p class="text-sm text-gray-600 mt-1">AC, Heat Pump, or Furnace</p></div><span class="material-symbols-outlined text-blue-600 absolute top-3 right-3 hidden peer-checked:block icon-filled">check_circle</span></label>
+<label class="cursor-pointer relative"><input type="radio" name="svc" value="Maintenance" class="peer sr-only"><div class="border-2 border-gray-200 rounded-xl p-5 hover:border-blue-300 transition-all peer-checked:border-blue-600 peer-checked:bg-blue-50 peer-checked:shadow-md"><span class="material-symbols-outlined text-3xl text-blue-600 mb-2 block">tune</span><span class="font-bold text-navy">Maintenance / Tune-Up</span><p class="text-sm text-gray-600 mt-1">Seasonal check-up</p></div><span class="material-symbols-outlined text-blue-600 absolute top-3 right-3 hidden peer-checked:block icon-filled">check_circle</span></label>
+</div>
+<button onclick="goToStep(2)" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-all shadow-lg shadow-blue-600/25 active:scale-95 flex items-center justify-center gap-2">Continue<span class="material-symbols-outlined">arrow_forward</span></button></div>
+<div id="bs2" class="hidden"><h3 class="text-xl font-extrabold text-navy mb-6">When should we come?</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+<div><label class="block font-semibold text-navy text-sm mb-2">Preferred Date</label><input type="date" id="bdate" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
+<div><label class="block font-semibold text-navy text-sm mb-2">Time Window</label><select id="btime" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all bg-white"><option value="">Select time...</option><option>Morning (8AM-12PM)</option><option>Afternoon (12PM-4PM)</option><option>Evening (4PM-7PM)</option></select></div>
+</div>
+<div class="flex gap-4"><button onclick="goToStep(1)" class="flex-1 border-2 border-gray-200 text-gray-700 font-semibold py-3.5 rounded-xl hover:bg-gray-50 transition-all flex items-center justify-center gap-2"><span class="material-symbols-outlined">arrow_back</span>Back</button><button onclick="goToStep(3)" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-all shadow-lg shadow-blue-600/25 active:scale-95 flex items-center justify-center gap-2">Continue<span class="material-symbols-outlined">arrow_forward</span></button></div></div>
+<div id="bs3" class="hidden"><h3 class="text-xl font-extrabold text-navy mb-6">Your contact info</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+<div><label class="block font-semibold text-navy text-sm mb-2">Full Name *</label><input type="text" id="bname" placeholder="John Smith" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
+<div><label class="block font-semibold text-navy text-sm mb-2">Phone Number *</label><input type="tel" id="bphone" placeholder="(559) 555-0123" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
+<div><label class="block font-semibold text-navy text-sm mb-2">Email Address *</label><input type="email" id="bemail" placeholder="you@email.com" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
+<div><label class="block font-semibold text-navy text-sm mb-2">Service Address</label><input type="text" id="baddr" placeholder="123 Main St, Fresno, CA" class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all"/></div>
+</div>
+<div class="mb-6"><label class="block font-semibold text-navy text-sm mb-2">Describe the issue</label><textarea id="bnotes" rows="3" placeholder="Tell us what is going on..." class="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all resize-none"></textarea></div>
+<div class="flex gap-4"><button onclick="goToStep(2)" class="flex-1 border-2 border-gray-200 text-gray-700 font-semibold py-3.5 rounded-xl hover:bg-gray-50 transition-all flex items-center justify-center gap-2"><span class="material-symbols-outlined">arrow_back</span>Back</button><button onclick="submitBooking()" class="flex-1 bg-orange hover:bg-orange-dark text-white font-bold py-3.5 rounded-xl transition-all shadow-lg shadow-orange/30 active:scale-95 flex items-center justify-center gap-2">Submit Booking<span class="material-symbols-outlined">send</span></button></div></div>
+<div id="bs4" class="hidden text-center py-8"><div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6"><span class="material-symbols-outlined text-5xl text-green-600 icon-filled">check_circle</span></div><h3 class="text-2xl font-extrabold text-navy mb-4">Booking Confirmed!</h3><p class="text-gray-700 mb-6 max-w-md mx-auto">We'll call within <strong>15 minutes</strong> to confirm. For emergencies: <a href="tel:+15597200479" class="text-orange font-bold">(559) 720-0479</a></p>
+<div class="flex flex-col sm:flex-row gap-3 justify-center"><button onclick="resetBooking()" class="bg-navy hover:bg-navy-light text-white font-bold px-6 py-3 rounded-xl transition-all">Book Another</button><a href="#" class="border-2 border-gray-200 text-gray-700 font-semibold px-6 py-3 rounded-xl hover:bg-gray-50 transition-all text-center">Back to Home</a></div></div>
+</div>
+</div>
 </section>
 
-<!-- ===== PHOTO STRIP ===== --><section class="relative h-48 md:h-64 overflow-hidden bg-brand-900">
-  <img src="images/team-work.jpg" alt="Fresno Heating and Cooling Inc professional HVAC technicians at work" class="w-full h-full object-cover opacity-70" onerror="this.style.display='none'"/>
-  <div class="absolute inset-0 bg-gradient-to-r from-brand-900/80 to-transparent flex items-center">
-    <div class="max-w-7xl mx-auto px-4 w-full">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-white">Your Comfort Is Our Business</h2>
-      <p class="text-blue-200/70 text-lg mt-2">30+ years serving the Central Valley</p>
-    </div>
-  </div>
-</section>
-
-<!-- ===== REVIEWS ===== -->
+<!-- REVIEWS -->
 <section id="reviews" class="py-20 bg-slate-200">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14">
-      <div class="flex items-center justify-center gap-1 mb-3"><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span></div>
-      <span class="text-warm-500 font-bold text-sm uppercase tracking-widest">Testimonials</span>
-      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mt-3">4.9 Stars · 545 Google Reviews</h2>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100"><div class="flex text-yellow-500 mb-3"><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span></div><p class="text-gray-800 text-sm italic mb-4">"Our AC died during a 105° heatwave. Called at 9 AM, they were here by 11. Fixed fast, fair price. Lifesavers!"</p><p class="font-bold text-gray-900 text-sm">Sarah M.</p><p class="text-xs text-gray-600">Fresno, CA</p></div>
-      <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100"><div class="flex text-yellow-500 mb-3"><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span></div><p class="text-gray-800 text-sm italic mb-4">"Installed a new heat pump. Professional crew, spotless cleanup, helped with rebate paperwork. Highly recommend."</p><p class="font-bold text-gray-900 text-sm">Mike T.</p><p class="text-xs text-gray-600">Clovis, CA</p></div>
-      <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100"><div class="flex text-yellow-500 mb-3"><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span></div><p class="text-gray-800 text-sm italic mb-4">"Called 3 companies. They gave the best quote and came same day. Honest, reliable, family-owned. My go-to HVAC company."</p><p class="font-bold text-gray-900 text-sm">Linda S.</p><p class="text-xs text-gray-600">Madera, CA</p></div>
-    </div>
-  </div>
+<div class="max-w-7xl mx-auto px-4">
+<div class="text-center mb-14">
+<div class="flex items-center justify-center gap-1 mb-3"><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span><span class="material-symbols-outlined text-yellow-500 icon-filled">star</span></div>
+<span class="text-orange font-bold text-sm uppercase tracking-widest">Testimonials</span>
+<h2 class="text-3xl md:text-5xl font-extrabold text-navy mt-3">4.9 Stars · 545 Google Reviews</h2>
+</div>
+<div class="flex justify-center mb-10"><img src="images/technician.jpg" alt="Professional HVAC technician from Fresno Heating and Cooling" class="rounded-xl shadow-lg max-h-64 object-cover" onerror="this.style.display='none'"/></div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><div class="flex text-yellow-500 mb-3"><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span></div><p class="text-gray-800 text-sm italic mb-4">"Our AC died during a 105° heatwave. Called at 9 AM, here by 11. Fixed fast, fair price. True lifesavers!"</p><p class="font-bold text-navy text-sm">Sarah M.</p><p class="text-xs text-gray-600">Fresno, CA</p></div>
+<div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><div class="flex text-yellow-500 mb-3"><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span></div><p class="text-gray-800 text-sm italic mb-4">"Installed a new heat pump. Professional crew, spotless cleanup, helped with rebates. Highly recommend!"</p><p class="font-bold text-navy text-sm">Mike T.</p><p class="text-xs text-gray-600">Clovis, CA</p></div>
+<div class="bg-white rounded-xl p-6 shadow-md border border-gray-200"><div class="flex text-yellow-500 mb-3"><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span></div><p class="text-gray-800 text-sm italic mb-4">"Best quote of 3 companies, same-day service. Honest, reliable, family-owned. My go-to HVAC company now."</p><p class="font-bold text-navy text-sm">Linda S.</p><p class="text-xs text-gray-600">Madera, CA</p></div>
+</div>
+</div>
 </section>
 
-<!-- ===== FOOTER ===== -->
-<footer id="contact" class="bg-brand-900 pt-16 pb-8 text-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-      <div class="lg:col-span-1">
-        <div class="flex items-center gap-3 mb-4">
-          <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center"><span class="material-symbols-outlined text-white text-xl icon-filled">ac_unit</span></div>
-          <div><h3 class="font-extrabold text-lg">Fresno Heating & Cooling Inc</h3></div>
-        </div>
-        <p class="text-blue-200/80 text-sm mb-4">Family owned since 1995. Licensed, insured, BBB A-Rated. Serving Fresno, Kings, Madera & Tulare Counties.</p>
-        <div class="flex gap-2">
-          <a href="https://www.tiktok.com" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-warm-500 transition-colors" title="TikTok"><span class="material-symbols-outlined text-sm">music_note</span></a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-warm-500 transition-colors" title="Instagram"><span class="material-symbols-outlined text-sm">photo_camera</span></a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-warm-500 transition-colors" title="Facebook"><span class="material-symbols-outlined text-sm">thumb_up</span></a>
-          <a href="https://www.yelp.com" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-warm-500 transition-colors" title="Yelp"><span class="material-symbols-outlined text-sm">reviews</span></a>
-        </div>
-      </div>
-      <div><h3 class="font-bold text-lg mb-4">Services</h3><ul class="space-y-2 text-sm text-blue-200/80"><li><a href="#services" class="hover:text-white transition-colors">AC Repair & Installation</a></li><li><a href="#services" class="hover:text-white transition-colors">Heater Repair & Installation</a></li><li><a href="#vip" class="hover:text-white transition-colors">VIP Maintenance Plans</a></li><li><a href="#booking" class="hover:text-white transition-colors">Book Online</a></li></ul></div>
-      <div><h3 class="font-bold text-lg mb-4">Hours</h3><ul class="space-y-2 text-sm text-blue-200/80"><li><strong class="text-white">Mon - Sat:</strong> 7:00 AM - 7:00 PM</li><li><strong class="text-white">Sunday & Holidays:</strong> Closed</li><li class="text-red-400 font-semibold mt-3">24/7 Emergency Available*</li><li class="text-xs text-gray-200">*Additional fee applies</li></ul></div>
-      <div><h3 class="font-bold text-lg mb-4">Contact</h3><ul class="space-y-3 text-sm">
-        <li class="flex items-start gap-2"><span class="material-symbols-outlined text-warm-500 text-lg mt-0.5">location_on</span><span class="text-blue-200/80">Fresno, CA<br/>Serving Central Valley</span></li>
-        <li><a href="tel:+15597200479" class="flex items-center gap-2 text-white font-bold hover:text-warm-500 transition-colors"><span class="material-symbols-outlined text-warm-500">call</span>(559) 720-0479</a><span class="text-blue-100 text-xs ml-7">English</span></li>
-        <li><a href="tel:+15597614527" class="flex items-center gap-2 text-white font-bold hover:text-warm-500 transition-colors"><span class="material-symbols-outlined text-warm-500">call</span>(559) 761-4527</a><span class="text-blue-100 text-xs ml-7">Español</span></li>
-        <li><a href="mailto:fresnoheatandcool@gmail.com" class="flex items-center gap-2 text-blue-200/80 hover:text-white transition-colors"><span class="material-symbols-outlined text-warm-500">mail</span>fresnoheatandcool@gmail.com</a></li>
-      </ul></div>
-    </div>
-    <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-200">
-      <p>&copy; 2024 Fresno Heating and Cooling Inc. All rights reserved. License #HVAC123456</p>
-      <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
-    </div>
-  </div>
+<!-- FOOTER -->
+<footer id="contact" class="bg-navy pt-16 pb-8 text-white">
+<div class="max-w-7xl mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<div><h3 class="font-extrabold text-xl mb-4 flex items-center gap-2"><span class="material-symbols-outlined text-orange icon-filled">ac_unit</span>Fresno Heating & Cooling Inc</h3><p class="text-gray-400 text-sm mb-4">Family owned since 1995. Licensed, insured, BBB A-Rated. Serving Fresno, Kings, Madera & Tulare Counties including Clovis.</p>
+<div class="flex gap-2">
+<a href="https://www.tiktok.com" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-orange transition-colors"><span class="material-symbols-outlined text-sm">music_note</span></a>
+<a href="https://www.instagram.com" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-orange transition-colors"><span class="material-symbols-outlined text-sm">photo_camera</span></a>
+<a href="https://www.facebook.com" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-orange transition-colors"><span class="material-symbols-outlined text-sm">thumb_up</span></a>
+<a href="https://www.yelp.com" target="_blank" rel="noopener" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-orange transition-colors"><span class="material-symbols-outlined text-sm">reviews</span></a>
+</div></div>
+<div><h3 class="font-extrabold text-lg mb-4">Services</h3><ul class="space-y-2 text-sm text-gray-400"><li><a href="#services" class="hover:text-white">AC Repair & Installation</a></li><li><a href="#services" class="hover:text-white">Heater Repair & Installation</a></li><li><a href="#vip" class="hover:text-white">VIP Maintenance Plans</a></li><li><a href="#booking" class="hover:text-white">Book Online</a></li></ul></div>
+<div><h3 class="font-extrabold text-lg mb-4">Hours</h3><ul class="space-y-2 text-sm text-gray-400"><li><strong class="text-white">Mon - Sat:</strong> 7:00 AM - 7:00 PM</li><li><strong class="text-white">Sunday & Holidays:</strong> Closed</li><li class="text-red-400 font-semibold mt-3">24/7 Emergency Available*</li><li class="text-xs text-gray-500">*Additional fee applies</li></ul></div>
+<div><h3 class="font-extrabold text-lg mb-4">Contact</h3><ul class="space-y-3 text-sm">
+<li><a href="tel:+15597200479" class="flex items-center gap-2 text-white font-bold hover:text-orange"><span class="material-symbols-outlined text-orange">call</span>(559) 720-0479</a><span class="text-gray-500 text-xs ml-7">English</span></li>
+<li><a href="tel:+15597614527" class="flex items-center gap-2 text-white font-bold hover:text-orange"><span class="material-symbols-outlined text-orange">call</span>(559) 761-4527</a><span class="text-gray-500 text-xs ml-7">Español</span></li>
+<li><a href="mailto:fresnoheatandcool@gmail.com" class="flex items-center gap-2 text-gray-400 hover:text-white"><span class="material-symbols-outlined text-orange">mail</span>fresnoheatandcool@gmail.com</a></li>
+<li class="flex items-start gap-2 text-gray-400"><span class="material-symbols-outlined text-orange mt-0.5">location_on</span>Fresno, CA — Serving Central Valley</li>
+</ul></div>
+</div>
+<div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between text-sm text-gray-500"><p>&copy; 2024 Fresno Heating and Cooling Inc.</p><a href="#" class="hover:text-white">Privacy Policy</a></div>
+</div>
 </footer>
 
-<!-- MOBILE STICKY BAR -->
-<div class="fixed bottom-0 w-full z-50 md:hidden bg-white border-t border-gray-200 shadow-2xl flex">
-  <a href="tel:+15597200479" class="flex-1 flex flex-col items-center justify-center py-2.5 text-gray-900 font-bold text-xs active:bg-gray-50"><span class="material-symbols-outlined text-xl">call</span>Call</a>
-  <a href="#booking" class="flex-1 flex flex-col items-center justify-center py-2.5 bg-warm-500 text-white font-bold text-xs active:bg-warm-600"><span class="material-symbols-outlined text-xl icon-filled">calendar_month</span>Book Now</a>
-  <a href="tel:+15597614527" class="flex-1 flex flex-col items-center justify-center py-2.5 text-gray-900 font-bold text-xs active:bg-gray-50"><span class="material-symbols-outlined text-xl">language</span>Español</a>
+<!-- MOBILE STICKY -->
+<div class="fixed bottom-0 w-full z-50 md:hidden bg-white border-t shadow-2xl flex">
+<a href="tel:+15597200479" class="flex-1 flex flex-col items-center justify-center py-2.5 text-navy font-bold text-xs"><span class="material-symbols-outlined text-xl">call</span>Call</a>
+<a href="#booking" class="flex-1 flex flex-col items-center justify-center py-2.5 bg-orange text-white font-bold text-xs"><span class="material-symbols-outlined text-xl icon-filled">calendar_month</span>Book Now</a>
+<a href="tel:+15597614527" class="flex-1 flex flex-col items-center justify-center py-2.5 text-navy font-bold text-xs"><span class="material-symbols-outlined text-xl">language</span>Español</a>
 </div>
 <div class="md:hidden h-16"></div>
 
 <script>
-let currentStep=1,selectedService='AC Repair';
+let currentStep=1;
 function goToStep(s){
-  if(s===3){if(!document.getElementById('bdate').value){alert('Please select a date.');return}}
-  document.querySelectorAll('[id^="bs"]').forEach(e=>e.classList.add('hidden'));
-  document.getElementById('bs'+s).classList.remove('hidden');
-  currentStep=s;updateSteps();
+if(s===3&&!document.getElementById('bdate').value){alert('Please select a date.');return}
+document.querySelectorAll('[id^="bs"]').forEach(e=>e.classList.add('hidden'));
+document.getElementById('bs'+s).classList.remove('hidden');currentStep=s;updateSteps()
 }
 function updateSteps(){
-  for(let i=1;i<=4;i++){
-    let d=document.getElementById('si'+i),c=d.querySelector('span:first-child'),l=d.querySelector('span:last-child');
-    if(i<currentStep){c.className='flex items-center justify-center w-8 h-8 rounded-full bg-green-500 text-white font-bold text-sm';l.className='hidden sm:inline text-sm font-semibold text-green-600'}
-    else if(i===currentStep){c.className='flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm';l.className='hidden sm:inline text-sm font-semibold text-gray-900'}
-    else{c.className='flex items-center justify-center w-8 h-8 rounded-full bg-gray-200 text-gray-600 font-bold text-sm';l.className='hidden sm:inline text-sm font-semibold text-gray-600'}
-  }
+for(let i=1;i<=4;i++){
+let d=document.getElementById('si'+i),c=d.querySelector('span:first-child'),l=d.querySelector('span:last-child');
+if(i<currentStep){c.className='flex items-center justify-center w-8 h-8 rounded-full bg-green-500 text-white font-bold text-sm';l.className='hidden sm:inline text-sm font-semibold text-green-600'}
+else if(i===currentStep){c.className='flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-sm';l.className='hidden sm:inline text-sm font-semibold text-navy'}
+else{c.className='flex items-center justify-center w-8 h-8 rounded-full bg-gray-200 text-gray-400 font-bold text-sm';l.className='hidden sm:inline text-sm font-semibold text-gray-500'}
+}
 }
 function submitBooking(){
-  let n=document.getElementById('bname').value.trim(),p=document.getElementById('bphone').value.trim(),e=document.getElementById('bemail').value.trim();
-  if(!n||!p||!e){alert('Please fill in name, phone, and email.');return}
-  let data={service:document.querySelector('input[name="svc"]:checked')?.value||selectedService,date:document.getElementById('bdate').value,time:document.getElementById('btime').value,name:n,phone:p,email:e,address:document.getElementById('baddr').value.trim(),notes:document.getElementById('bnotes').value.trim(),timestamp:new Date().toISOString()};
-  console.log('Booking:',data);
-  /* BACKEND: Replace with fetch() to Zapier/SendGrid/Google Sheets — see previous version for code. */
-  goToStep(4);
+let n=document.getElementById('bname').value.trim(),p=document.getElementById('bphone').value.trim(),e=document.getElementById('bemail').value.trim();
+if(!n||!p||!e){alert('Please fill in name, phone, and email.');return}
+/* BACKEND: Replace with fetch() to Zapier/SendGrid API */
+goToStep(4)
 }
 function resetBooking(){currentStep=1;['bdate','btime','bname','bphone','bemail','baddr','bnotes'].forEach(id=>{let el=document.getElementById(id);if(el)el.value=''});document.querySelectorAll('[id^="bs"]').forEach(e=>e.classList.add('hidden'));document.getElementById('bs1').classList.remove('hidden');document.querySelector('input[name="svc"][value="AC Repair"]').checked=true;updateSteps();document.getElementById('booking').scrollIntoView({behavior:'smooth'})}
 document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',function(e){let h=this.getAttribute('href');if(h==='#')return;e.preventDefault();let t=document.querySelector(h);if(t)t.scrollIntoView({behavior:'smooth',block:'start'})}));
