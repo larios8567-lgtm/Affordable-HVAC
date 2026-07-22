@@ -36,12 +36,12 @@ h1,h2,h3{font-family:'Inter',sans-serif;font-weight:800;letter-spacing:-0.02em}
 <a href="#" class="flex items-center gap-2.5 text-white font-extrabold text-lg">
 <span class="material-symbols-outlined text-red-600 text-2xl icon-filled">ac_unit</span>Fresno Heating & Cooling Inc
 </a>
-<nav class="hidden lg:flex gap-6 text-sm font-semibold">
-<a href="#services" class="text-gray-300 hover:text-white">Services</a>
-<a href="#vip" class="text-gray-300 hover:text-white">VIP Plans</a>
-<a href="#booking" class="text-gray-300 hover:text-white">Book Online</a>
-<a href="#reviews" class="text-gray-300 hover:text-white">Reviews</a>
-<a href="#contact" class="text-gray-300 hover:text-white">Contact</a>
+<nav class="hidden lg:flex gap-8 text-sm font-bold tracking-wide">
+<a href="#services" class="text-white font-bold hover:text-red-400">Services</a>
+<a href="#vip" class="text-white font-bold hover:text-red-400">VIP Plans</a>
+<a href="#booking" class="text-white font-bold hover:text-red-400">Book Online</a>
+<a href="#reviews" class="text-white font-bold hover:text-red-400">Reviews</a>
+<a href="#contact" class="text-white font-bold hover:text-red-400">Contact</a>
 </nav>
 <div class="flex items-center gap-3">
 <a href="tel:+15597200479" class="hidden sm:flex items-center gap-1 text-white font-bold hover:text-red-600 text-sm"><span class="material-symbols-outlined">call</span>(559) 720-0479</a>
@@ -51,9 +51,11 @@ h1,h2,h3{font-family:'Inter',sans-serif;font-weight:800;letter-spacing:-0.02em}
 </header>
 
 <!-- HERO -->
-<section class="relative bg-navy py-20 md:py-32 overflow-hidden">
-<div class="absolute inset-0 opacity-25"><div class="absolute inset-0 bg-[url('images/hero-van.jpg')] bg-cover bg-center"></div></div>
-<div class="absolute inset-0 bg-navy/80"></div>
+<section class="relative bg-navy overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="images/hero-service.jpg" alt="Fresno Heating and Cooling Inc - professional HVAC services in Fresno CA" class="w-full h-full object-cover opacity-30" onerror="this.style.display='none'"/>
+  </div>
+  <div class="absolute inset-0 bg-gradient-to-b from-navy/60 via-navy/70 to-navy/95"></div>
 <div class="max-w-7xl mx-auto px-4 relative z-10">
 <div class="max-w-2xl text-white space-y-6">
 <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold">
@@ -71,6 +73,18 @@ h1,h2,h3{font-family:'Inter',sans-serif;font-weight:800;letter-spacing:-0.02em}
 </section>
 
 <!-- TRUST BAR -->
+<section class="relative py-8 bg-white">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-6">
+    <div class="md:w-1/3">
+      <img src="images/ac-install.jpg" alt="Fresno Heating and Cooling AC installation service" class="rounded-xl shadow-lg w-full max-h-48 object-cover" onerror="this.style.display='none'"/>
+    </div>
+    <div class="md:w-2/3">
+      <div class="flex items-center gap-2 mb-2"><span class="flex text-yellow-500"><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span><span class="material-symbols-outlined text-sm icon-filled">star</span></span><span class="text-sm font-bold text-navy">4.9 Stars on 545 Google Reviews</span></div>
+      <p class="text-gray-700 text-lg"><strong class="text-navy">Family owned since 1995.</strong> Licensed, insured, and BBB A-Rated. We treat every home like it is our own.</p>
+    </div>
+  </div>
+</section>
+
 <section class="bg-navy-light py-10">
 <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
 <div><span class="text-3xl font-black text-red-600">545+</span><p class="text-sm text-gray-400 mt-1">Google Reviews</p></div>
