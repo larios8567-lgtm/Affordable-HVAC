@@ -1,11 +1,13 @@
-<!DOCTYPE html><html class="light" lang="en"><head>
-<meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Services - Fresno's Heating &amp; Cooling</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Montserrat:wght@600;700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Montserrat:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -111,12 +113,12 @@
 <!-- TopAppBar -->
 <header class="bg-surface dark:bg-surface text-primary dark:text-primary-fixed fixed top-0 w-full z-50 shadow-sm border-b border-outline-variant dark:border-outline">
 <div class="max-w-container-max mx-auto px-gutter h-[72px] flex items-center justify-between">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-secondary-container icon-fill text-3xl">ac_unit</span>
-<span class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed tracking-tight">Fresno's Heating &amp; Cooling</span>
-</div>
+<a class="flex items-center gap-2" href="{{DATA:SCREEN:SCREEN_35}}">
+<img alt="Fresno's Heating &amp; Cooling" class="h-10 object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLtI_iEHqUAIuHUz5LPZBiKssQ39I7pwq0aPnYVystRX80uTg4svEccvWsZNhGcCM8Zk_wOF-cVF_GWaNPJYYak5E4IhgsfZFE49LptwXx-Xy6kMsXf5gFi335J9Ey2FREeJ4bzpJAs7OYUraWEE3Unro1wo4xXc2uSGQGa6gbjrXTZmlSNQSmTsmCCsE1BvSMVAzKZS0G5rEchlEkrlZ6zNy5qLsg_1dOHW1xqIfuBd2xSZj7yNBKnjrEYx"/>
+</a>
 <nav class="hidden md:flex items-center space-x-8">
-<a class="text-secondary font-label-bold border-b-2 border-secondary pb-1 scale-95 duration-100" href="services.html" class="nav-link active">Services</a>
+<a class="text-on-surface-variant font-label-bold hover:text-primary hover:bg-surface-container-high transition-colors px-2 py-1 rounded" href="{{DATA:SCREEN:SCREEN_35}}">Home</a>
+<a class="text-secondary font-label-bold border-b-2 border-secondary pb-1 scale-95 duration-100" href="services.html">Services</a>
 <a class="text-on-surface-variant font-label-bold hover:text-primary hover:bg-surface-container-high transition-colors px-2 py-1 rounded" href="maintenance.html">Maintenance</a>
 <a class="text-on-surface-variant font-label-bold hover:text-primary hover:bg-surface-container-high transition-colors px-2 py-1 rounded" href="booking.html">Emergency</a>
 <a class="text-on-surface-variant font-label-bold hover:text-primary hover:bg-surface-container-high transition-colors px-2 py-1 rounded" href="about.html">About</a>
@@ -124,9 +126,9 @@
 </nav>
 <div class="hidden md:flex items-center gap-4">
 <a class="text-primary font-label-bold flex items-center gap-1 hover:text-secondary-container transition-colors" href="tel:5592171044"><span class="material-symbols-outlined text-[20px]">call</span> (559) 217-1044</a>
-<button class="bg-secondary-container text-white font-label-bold px-6 py-2 rounded-lg hover:bg-secondary transition-colors shadow-sm">
+<a class="bg-secondary-container text-white font-label-bold px-6 py-2 rounded-lg hover:bg-secondary transition-colors shadow-sm inline-block" href="{{DATA:SCREEN:SCREEN_4}}">
                     Book Now
-                </button>
+                </a>
 <button class="text-error flex items-center gap-1 font-label-bold border border-error/20 px-3 py-2 rounded-lg hover:bg-error/5 transition-colors">
 <span class="material-symbols-outlined icon-fill">emergency_home</span>
 </button>
@@ -146,11 +148,11 @@
                     Expert cooling, heating, and air quality solutions designed to keep your home comfortable year-round. Backed by our 100% satisfaction guarantee.
                 </p>
 <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-<button class="w-full sm:w-auto bg-secondary-container text-white font-label-bold px-8 py-4 rounded-lg hover:bg-secondary transition-colors shadow-lg flex items-center justify-center gap-2">
+<a class="w-full sm:w-auto bg-secondary-container text-white font-label-bold px-8 py-4 rounded-lg hover:bg-secondary transition-colors shadow-lg flex items-center justify-center gap-2" href="{{DATA:SCREEN:SCREEN_4}}">
 <span class="material-symbols-outlined">calendar_month</span>
                         Schedule Service
-                    </button>
-<button class="w-full sm:w-auto bg-transparent border-2 border-primary-fixed text-primary-fixed font-label-bold px-8 py-4 rounded-lg hover:bg-primary-fixed/10 transition-colors flex items-center justify-center gap-2"><span class="material-symbols-outlined">call</span> (559) 217-1044</button>
+                    </a>
+<a class="w-full sm:w-auto bg-transparent border-2 border-primary-fixed text-primary-fixed font-label-bold px-8 py-4 rounded-lg hover:bg-primary-fixed/10 transition-colors flex items-center justify-center gap-2" href="tel:5592171044"><span class="material-symbols-outlined">call</span> (559) 217-1044</a>
 </div>
 <!-- Trust Badges Line -->
 <div class="mt-12 flex flex-wrap justify-center items-center gap-8 opacity-80">
@@ -177,8 +179,8 @@
 <!-- Cooling Category -->
 <div class="scroll-mt-[100px]" id="cooling">
 <div class="flex items-center gap-4 mb-6">
-<div class="w-12 h-12 rounded-full bg-surface-container-high text-primary flex items-center justify-center">
-<span class="material-symbols-outlined text-2xl icon-fill">ac_unit</span>
+<div class="w-12 h-12 rounded-full bg-surface-container-high text-primary flex items-center justify-center overflow-hidden">
+<img alt="Cooling Services" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLsO5m73cHmj3cr6pkM3-X2UUCxTD9uEwzXrgWGMLm9dnzjMZ9JPjFI-ECU9K00GlI2vMXMmQd9NTTIDpMMLrnWftq2K2LniBHWsx8lqf4mqJGOpWMerB-OQ_NS6ujCmUtGyb1jNWGM_SMHP7ocrhTGaXRvhcDOGY4ROdMg6Q5WwbGleMY5lYEeVFE8IWkvpqfZJNgcc6Itogl3DTRXTOR5gNKqRt6qE8cygyE5ji61Q361IcUQpOf5_obwW"/>
 </div>
 <h2 class="font-headline-md text-headline-md text-primary">Cooling Services</h2>
 </div>
@@ -210,12 +212,12 @@
 </div>
 </div>
 </div>
-<hr class="border-outline-variant opacity-50">
+<hr class="border-outline-variant opacity-50"/>
 <!-- Heating Category -->
 <div class="scroll-mt-[100px]" id="heating">
 <div class="flex items-center gap-4 mb-6">
-<div class="w-12 h-12 rounded-full bg-error-container text-on-error-container flex items-center justify-center">
-<span class="material-symbols-outlined text-2xl icon-fill">local_fire_department</span>
+<div class="w-12 h-12 rounded-full bg-error-container text-on-error-container flex items-center justify-center overflow-hidden">
+<img alt="Heating Services" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLvDY4dUhIngQtNxiSq5IkTW2NaTkwsQpEiKAF04h8-g-TKUCH4AcAyMm07oC0kJgVRtPDXqvEypGONBTU3OMytzz9t0rGuONz0sRPU7A9l8SgSStMU356DObJue1OOPaMQJauTmLRZvnP7jrkWFClUJLzWay_DVuCgLS1PxjzQs4PGD06W0jIARbOPG6mdBy0Rwg3nDvFADM_0EhP2hPqcxm3EZ_IAEXQOHNCV-yXbW_vgLD9mqZV23VXCY"/>
 </div>
 <h2 class="font-headline-md text-headline-md text-primary">Heating Services</h2>
 </div>
@@ -248,10 +250,10 @@
 </div>
 <div class="flex flex-col gap-4">
 <a class="w-full bg-primary text-white font-label-bold py-4 rounded-lg hover:bg-primary-container transition-colors flex items-center justify-center gap-2 text-lg shadow-sm" href="tel:5592171044"><span class="material-symbols-outlined">call</span> (559) 217-1044</a>
-<button class="w-full bg-secondary-container text-white font-label-bold py-4 rounded-lg hover:bg-secondary transition-colors flex items-center justify-center gap-2 shadow-sm">
+<a class="w-full bg-secondary-container text-white font-label-bold py-4 rounded-lg hover:bg-secondary transition-colors flex items-center justify-center gap-2 shadow-sm inline-flex" href="{{DATA:SCREEN:SCREEN_4}}">
 <span class="material-symbols-outlined">event_available</span>
                                 Book Service Online
-                            </button>
+                            </a>
 </div>
 <div class="bg-surface-container-highest p-4 rounded-lg mt-2">
 <div class="flex items-start gap-3">
@@ -279,14 +281,14 @@
 <!-- BottomNavBar (Mobile Only) -->
 <nav class="fixed bottom-0 w-full z-50 md:hidden bg-surface-container-highest dark:bg-inverse-surface text-primary dark:text-primary-fixed shadow-lg border-t border-outline-variant">
 <div class="flex justify-around items-center h-16 px-4">
-<button class="flex flex-col items-center justify-center text-on-surface-variant active:bg-surface-container-high scale-95 duration-75 p-2 rounded-xl">
+<a class="flex flex-col items-center justify-center text-on-surface-variant active:bg-surface-container-high scale-95 duration-75 p-2 rounded-xl" href="tel:5592171044">
 <span class="material-symbols-outlined">call</span>
 <span class="font-label-bold text-label-bold-mobile text-xs mt-1">Call Now</span>
-</button>
-<button class="flex flex-col items-center justify-center text-on-surface-variant active:bg-surface-container-high scale-95 duration-75 p-2 rounded-xl">
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant active:bg-surface-container-high scale-95 duration-75 p-2 rounded-xl" href="{{DATA:SCREEN:SCREEN_4}}">
 <span class="material-symbols-outlined">calendar_month</span>
 <span class="font-label-bold text-label-bold-mobile text-xs mt-1">Book Online</span>
-</button>
+</a>
 <button class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-xl px-4 py-1 active:bg-surface-container-high scale-95 duration-75">
 <span class="material-symbols-outlined icon-fill">construction</span>
 <span class="font-label-bold text-label-bold-mobile text-xs mt-1">Services</span>
@@ -297,10 +299,9 @@
 <footer class="bg-primary dark:bg-primary-container text-on-primary dark:text-on-primary-fixed w-full py-section-padding flat no shadows mb-16 md:mb-0">
 <div class="max-w-container-max mx-auto px-gutter grid grid-cols-1 md:grid-cols-4 gap-8">
 <div class="flex flex-col gap-4">
-<span class="font-headline-md text-headline-md font-bold text-on-primary dark:text-on-primary-fixed flex items-center gap-2">
-<span class="material-symbols-outlined text-secondary-fixed icon-fill">ac_unit</span>
-                    Fresno's HVAC
-                </span>
+<a class="flex items-center gap-2" href="{{DATA:SCREEN:SCREEN_35}}">
+<img alt="Fresno's Heating &amp; Cooling" class="h-10 object-contain invert brightness-0" src="https://lh3.googleusercontent.com/aida/AP1WRLtI_iEHqUAIuHUz5LPZBiKssQ39I7pwq0aPnYVystRX80uTg4svEccvWsZNhGcCM8Zk_wOF-cVF_GWaNPJYYak5E4IhgsfZFE49LptwXx-Xy6kMsXf5gFi335J9Ey2FREeJ4bzpJAs7OYUraWEE3Unro1wo4xXc2uSGQGa6gbjrXTZmlSNQSmTsmCCsE1BvSMVAzKZS0G5rEchlEkrlZ6zNy5qLsg_1dOHW1xqIfuBd2xSZj7yNBKnjrEYx"/>
+</a>
 <p class="font-body-md text-body-md text-primary-fixed-dim">Keeping the Central Valley comfortable since 1995. Professional, reliable, and honest HVAC services.</p>
 <div class="mt-auto">
 <p class="font-label-bold text-label-bold text-primary-fixed-dim">License #HVAC123456</p>
@@ -320,13 +321,11 @@
 <div class="flex flex-col gap-3">
 <h4 class="font-label-bold text-label-bold text-secondary-fixed mb-2">Contact Us</h4>
 <p class="font-body-md text-body-md text-primary-fixed-dim flex items-center gap-2"><span class="material-symbols-outlined text-sm">location_on</span> 1140 N. Jackson Ave, Fresno, CA 93703</p>
-<p class="font-body-md text-body-md text-primary-fixed-dim flex items-center gap-2"><span class="material-symbols-outlined text-sm">call</span> (559) 217-1044</p>
+<a class="font-body-md text-body-md text-primary-fixed-dim flex items-center gap-2 hover:text-white hover:underline decoration-secondary Transition-all duration-300" href="tel:5592171044"><span class="material-symbols-outlined text-sm">call</span> (559) 217-1044</a>
 </div>
 </div>
 <div class="max-w-container-max mx-auto px-gutter mt-12 pt-8 border-t border-primary-fixed/20 text-center">
 <p class="font-body-md text-body-md text-primary-fixed-dim text-sm">© 2024 Fresno's Heating &amp; Cooling. License #HVAC123456. All Rights Reserved.</p>
 </div>
 </footer>
-
-
 <script src="js/main.js"></script></body></html>
